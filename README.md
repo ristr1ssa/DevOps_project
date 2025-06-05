@@ -4,7 +4,8 @@
 
 ## 📁 Структура проекта
 
-xss-protected-recommender/
+```plaintext
+DevOps_project/
 │
 ├── app.py # Flask-приложение
 ├── filters
@@ -16,6 +17,7 @@ xss-protected-recommender/
 │ └── fake_products.json # Пример товаров
 │ tests/
 │ └── test_xss.py # Тесты на XSS
+```
 
 ## 🚀 Быстрый старт
 
@@ -28,15 +30,21 @@ cd DevOps_project
 
 ### 2. Собери Docker-образ
 
+```bash
 docker build -t xss-recommender
+```
 
 ### 3. Запусти контейнер
 
+```bash
 docker run -p 5000:5000 xss-recommender
+```
 
 ### 4. Открой в браузере:
 
+```bash
 http://localhost:5050/recommendations?user_id=123
+```
 
 ## 📦 Описание файлов
 
