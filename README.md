@@ -31,13 +31,13 @@ cd DevOps_project
 ### 2. Собери Docker-образ
 
 ```bash
-docker build -t xss-recommender
+docker build -t DevOps_project
 ```
 
 ### 3. Запусти контейнер
 
 ```bash
-docker run -p 5000:5000 xss-recommender
+docker run -p 5050:5050 DevOps_project
 ```
 
 ### 4. Открой в браузере:
